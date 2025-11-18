@@ -1,3 +1,4 @@
+Navegador "Brave"
 
 button de agregar al carrito: //*[@id=":R4pj2kckp7te:"]/span
 
