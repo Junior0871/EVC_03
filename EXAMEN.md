@@ -1,3 +1,4 @@
+
 button de agregar al carrito: //*[@id=":R4pj2kckp7te:"]
 
 button preguntar: //*[@id=":R3ikab4p7te:"]
@@ -20,32 +21,16 @@ link devolucion: //*[@id="buybox-form"]/ul/li[1]/div/div/div/div/div/div/a
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Caso de Uso y Casos de Prueba - Mercado Libre
-1. Caso de Uso: Búsqueda de Producto
-Actor(es): Usuario visitante
-Descripción: El usuario busca un producto en Mercado Libre.
-Flujo Principal
-1.	1. El usuario ingresa a la página de Mercado Libre.
-2.	2. El sistema muestra la barra de búsqueda.
-3.	3. El usuario escribe un término de búsqueda.
-4.	4. El usuario hace clic en el botón Buscar.
-5.	5. El sistema procesa la búsqueda.
-6.	6. El sistema muestra resultados relacionados.
-Localizadores
-- input[name='as_word']
-- button[type='submit']
-- img[class='ui-search-image']
-- h2.ui-search-item__title
-- span.andes-money-amount__fraction
-- input[type='checkbox']
-- label.ui-search-filter-name
-- ol.ui-search-layout
-- a.andes-pagination__link
-- a.ui-search-link
-Caso de Prueba: Búsqueda de Laptop
-7.	1. Abrir Mercado Libre.
-8.	2. Escribir 'Laptop' en el cuadro de búsqueda.
-9.	3. Presionar el botón Buscar.
-10.	4. Validar que aparezcan productos.
-11.	5. Validar que cada producto tenga título.
-12.	6. Validar que se muestre un precio.
+Identificador del caso de prueba:	Cp_001
+Nombre:	Agregar al acrrito
+Precondiciones: El usuario debe seleccionar un producto y estar logeado
+Entrada	Seleccionar producto
+Pasos:	
+1.	Iniciar sesión.
+2.	Seleccionar la cantidad de productos
+3.	Agregar Producto al carrito
+4.	Se agrega el producto seleccionado
+Resultado Esperado:	El producto es agregado correctamenete.
+Estado	Iniciado
+Prioridad	Media
+
