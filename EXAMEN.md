@@ -1,19 +1,19 @@
 
-button de agregar al carrito: //*[@id=":R4pj2kckp7te:"]
+button de agregar al carrito: //*[@id=":R4pj2kckp7te:"]/span
 
-button preguntar: //*[@id=":R3ikab4p7te:"]
+button preguntar: //*[@id=":R4ajqb4p7te:"]
 
-img de producto: //*[@id="ui-pdp-main-container"]/div[1]/div/div[7]/div/div/div/div/div/div[1]/a/img
+img de producto: //*[@id="ui-pdp-main-container"]/div[1]/div/div[2]/div[1]/div/div/div/span[1]/label/div/button/img
 
-img: //*[@id="ui-pdp-main-container"]/div[1]/div/div[2]/div[1]/div/div/div/span[2]/figure/img
+link cuando llega: //*[@id=":R3ajb8qkckp7te:"]/span
 
-label: //*[@id="picker-label-COLOR"]
+label: //*[@id="ui-pdp-main-container"]/div[1]/div/div[2]/div[2]/div[4]/div/div[1]/p/span[1]
 
 label titulo producto: //*[@id="ui-pdp-main-container"]/div[1]/div/div[2]/div[2]/div[1]/div/div[2]/h1
 
-button ingresar : //*[@andes-button__content]document.querySelector("#primary_action > span").click();
+label: //*[@id="buybox-form"]/div[1]/div/div/div/p[1]
 
-boton seguir: //*[@id=":r14:"]/span
+link vendido por: //*[@id="buybox-form"]/div[5]/div/div/div[1]/div/button/span[2]
 
 link medio de pagos: //*[@id="ui-pdp-price__payments-link"]
 
